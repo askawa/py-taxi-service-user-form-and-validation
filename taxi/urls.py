@@ -1,21 +1,21 @@
 from django.urls import path
 
 from .views import (
-    index,
-    CarListView,
-    CarDetailView,
     CarCreateView,
-    CarUpdateView,
     CarDeleteView,
-    DriverListView,
-    DriverDetailView,
+    CarDetailView,
+    CarListView,
+    CarUpdateView,
     DriverCreateView,
     DriverDeleteView,
+    DriverDetailView,
     DriverLicenseUpdateView,
-    ManufacturerListView,
+    DriverListView,
     ManufacturerCreateView,
-    ManufacturerUpdateView,
     ManufacturerDeleteView,
+    ManufacturerListView,
+    ManufacturerUpdateView,
+    index,
     toggle_assign_to_car,
 )
 
